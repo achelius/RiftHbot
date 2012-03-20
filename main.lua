@@ -333,6 +333,7 @@ function  rhbAggroUpdate(units)
         if identif~=nil then
             local j=stripnum(identif)
             if j~=nil then
+
                 --if rhb.UnitsTableStatus[identif][1] ~=  unitTable.aggro or viewModeChanged then
                     rhb.UnitsTableStatus[identif][1] =  unitTable.aggro
                     if unitTable.aggro then
@@ -354,8 +355,10 @@ function  rhbBlockedUpdate(units)
         if identif~=nil then
             local j=stripnum(identif)
             if j~=nil then
+
                 --if rhb.UnitsTableStatus[identif][3] ~=  unitTable.blocked or viewModeChanged then
                     rhb.UnitsTableStatus[identif][3] =  unitTable.blocked
+                    print (identif .. tostring(unitTable.blocked))
                     if unitTable.blocked  then
                         rhb.groupHF[j]:SetTexture("RiftHbot", "Textures/healthlos.png")
                      elseif unitTable.blocked==nil  then

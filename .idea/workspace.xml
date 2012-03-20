@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e28a8064-4ac3-44b9-953e-33ff26f3cdb1" name="Default" comment="" />
+    <list default="true" id="e28a8064-4ac3-44b9-953e-33ff26f3cdb1" name="Default" comment="planning styles">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frmelements/manabar.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events.lua" afterPath="$PROJECT_DIR$/events.lua" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.lua" afterPath="$PROJECT_DIR$/main.lua" />
+    </list>
     <ignored path="RiftHbot.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,19 +74,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buffmonitor.lua" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buffmonitor.lua">
+      <file leaf-file-name="readme" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="423" column="48" selection-start="18169" selection-end="18169" vertical-scroll-proportion="0.0">
+            <state line="4" column="2" selection-start="283" selection-end="283" vertical-scroll-proportion="0.111265644">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="debuffcache.lua" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="todo" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="42" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manabar.lua" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frmelements/manabar.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="18" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buffmonitor.lua" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buffmonitor.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="349" column="21" selection-start="15109" selection-end="15121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debuffcache.lua" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/debuffcache.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="389" selection-end="389" vertical-scroll-proportion="0.24590164">
+            <state line="24" column="31" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,7 +131,16 @@
       <file leaf-file-name="main.lua" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="16" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0">
+            <state line="356" column="23" selection-start="13886" selection-end="13886" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.lua" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="4" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,9 +162,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/styles/stylescore.lua" />
-        <option value="$PROJECT_DIR$/main.lua" />
         <option value="$PROJECT_DIR$/styles/standard.lua" />
         <option value="$PROJECT_DIR$/buffmonitor.lua" />
+        <option value="$PROJECT_DIR$/readme" />
+        <option value="$PROJECT_DIR$/main.lua" />
+        <option value="$PROJECT_DIR$/events.lua" />
+        <option value="$PROJECT_DIR$/manabar.lua" />
+        <option value="$PROJECT_DIR$/frmelements/manabar.lua" />
+        <option value="$PROJECT_DIR$/todo" />
       </list>
     </option>
   </component>
@@ -157,7 +205,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -177,21 +224,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RiftHbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RiftHbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frmelements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="272" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="297" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="292" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="299" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="973" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="966" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="973" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="292" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="291" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -233,6 +295,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -258,24 +338,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -466,14 +528,11 @@
         <state line="8" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.18348624" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/stylescore.lua">
+    <entry file="file://$PROJECT_DIR$/RiftAddon.toc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="60" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="16" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/standard.lua">
@@ -485,14 +544,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buffmonitor.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="423" column="48" selection-start="18169" selection-end="18169" vertical-scroll-proportion="0.0">
+        <state line="349" column="21" selection-start="15109" selection-end="15121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/debuffcache.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="389" selection-end="389" vertical-scroll-proportion="0.24590164">
+        <state line="24" column="31" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/stylescore.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="60" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="356" column="23" selection-start="13886" selection-end="13886" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frmelements/manabar.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="18" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="283" selection-end="283" vertical-scroll-proportion="0.111265644">
           <folding />
         </state>
       </provider>

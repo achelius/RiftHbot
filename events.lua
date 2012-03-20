@@ -1,4 +1,4 @@
-
+print ("ciao")
 table.insert(Event.Unit.Detail.Health, {rhbHpUpdate, "RiftHbot", "Update_Health"})
 table.insert(Event.Unit.Detail.HealthMax, {rhbHpUpdate, "RiftHbot", "Update_Max_Health"})
 table.insert(Event.Unit.Detail.Aggro, {rhbAggroUpdate, "RiftHbot", "Update_Aggro_Flags"})
@@ -16,4 +16,5 @@ table.insert(Event.Buff.Remove, {onBuffRemove, "RiftHbot", "onBuffRemove"})
 -- create a change target event
 table.insert(Library.LibUnitChange.Register("player.target"), {onPlayerTargetChanged, "RiftHbot", "OnUnitChange"})
 table.insert(Library.LibUnitChange.Register("mouseover"), {onMouseOverTargetChanged, "RiftHbot", "OnUnitMouseoverChange"})
+
 
