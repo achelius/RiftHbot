@@ -4,3 +4,24 @@
 --separate main frame elements in separate files (like manabar.lua,healthbar.lua, etc)
 --move buffs/debuffs related functions into the buffmonitor.lua and move the file into frmelements folder
 --move castbar.lua into frmelements folder
+
+
+--[[ Protonova's Todo:
+* Add opactiy to LoS/OoR conditions to frame.
+* Fix Slash Commands
+    > Switch for manabars.
+    > Switch for dragger.
+    > Switch for profiling. Possibly save layout per spec instead of overall profile.
+    > Switch for /help.
+    > Switch for configuration menu.
+* Add optional healer stats LDB
+* Add Ability to switch between percent and exact HP deficit to Units.
+* Intoduce new textures via style.lua once completed.
+* Add localizations.
+* Modify how frames are displayed in terms of layers as well as how D/C, Porting, Has aggro, and selected (bar too thick) are displayed.
+* Redesign the specs buttons, add tooltip ability to grab spec name from talent panel. (Maybe, I still don't like that bar)
+* Add segmented HoT indicator for SS.
+* Add a timer bar for HoTs (Max 3 trackable HoTs).
+* Figure out how to replace Role icons with something none intrusive.
+* Add 2 modes. Normal and None intrusive mode where mouse clicks just dont register other than left click. (For mouseover only users).
+]]
