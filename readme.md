@@ -3,7 +3,7 @@ Rift HBot
 
 Features
 --------
-
+work in progress.
 
 Changelog
 ---------
@@ -12,14 +12,14 @@ Changelog
 
 RiftHBot For Dummies
 --------------------
-
+work in progress.
 
 Known Errors
 ------------
-
+work in progress.
 
 Future Implementations
 ----------------------
-1.	
-2.	
-3.	
+1.	work in progress.
+2.	work in progress.
+3.	work in progress.
