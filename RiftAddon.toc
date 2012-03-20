@@ -18,13 +18,14 @@ RunOnStartup = {
 	"globals.lua",
 	"view.lua",
 	"main.lua",
+	"slashCmds.lua",
 	"specbuttons.lua",
-	"mouseass.lua",
+	"mousebinds.lua",
 	"buffmonitor.lua",
     "optionsgui.lua",
     "castbar.lua",
     "debuffcache.lua",
-    "events.lua"
+    "eventhandler.lua"
 }
 
   SavedVariables = {

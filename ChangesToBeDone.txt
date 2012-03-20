@@ -1,0 +1,31 @@
+When entering frame, highlight it. Make the hovered frame lighter.
+Remove the bar on top. Nvm It actually disappears in combat. Change the Icons imo.
+Make it so if I hold down alt while my mouse is hovering over RaidHBot that a black bar at the bottom pops up so I can move stuff around.
+Remove Role Icon. 
+replace percents with actual deficit hp.
+Vertically Center text.
+Make the white bar around the frame when frame is selected smaller...
+Make the aggro dection be actually aggro detection per target. Not just a combat detector. Nvm it does do as said.
+Add the healer stats LDB.
+Add the segmented HoTs.
+Add ability to detect stacks on both hots and debuffs. NVM It does this but kinda buggy
+Add localizations?
+Ability to track hots via a hots overlay type status bar. Like a timer cast bar. from right to left.
+Use new texture that doesn't have rounded corners.
+Somehow remove the dragger on the side, add a /slash cmd for it
+Make a Minimap icon or LDB.
+Manabars!!!
+Oh The spec names can be added to the LDB. It can automatically grab names from specs.
+
+Redo how the mouse binds work. Make them like VuhDo. Don't make users have to put in modifers.
+Add new mode where it doesn't take any mouse clicks. Just frames.
+in 1.8 ability to tell if something is actually Los from you.
+
+Bugs:
+Orbs stack numbers don't actually update.
+/rhb doesnt work lol
+
+Talk to ZorbaTHut about:
+Ability to detect modifiers when clicking. So that I can tell the difference between M5 and shift+M5
+Ability to envoke right click functionality.
+Abilty to accept keybinds? O.o

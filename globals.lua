@@ -1,4 +1,3 @@
-
 rhb = {}
 
 rhb.Context = UI.CreateContext("Context")

@@ -30,16 +30,16 @@ function rhbCreateWindow()
     initializeSpecButtons()
 	rhbCreateGroups()
 	--toggleLockedWindow(rhbValues.islocked)
-
-    rhb.ResizeButton:SetTexture("RiftHbot", "Textures/resizer.png")
-    rhb.ResizeButton:SetWidth(32)
-    rhb.ResizeButton:SetHeight(32)
-    rhb.ResizeButton:SetLayer(3)
-    rhb.ResizeButton:SetVisible(true)
-    rhb.ResizeButton:SetPoint("BOTTOMRIGHT", rhb.CenterFrame, "BOTTOMRIGHT", 0, 0)
-    
+	
+	if (rhbValues.lockedState == false) then
+	    rhb.ResizeButton:SetTexture("RiftHbot", "Textures/resizer.png")
+		rhb.ResizeButton:SetWidth(32)
+		rhb.ResizeButton:SetHeight(32)
+		rhb.ResizeButton:SetLayer(3)
+		rhb.ResizeButton:SetVisible(true)
+		rhb.ResizeButton:SetPoint("BOTTOMRIGHT", rhb.CenterFrame, "BOTTOMRIGHT", 0, 0)
 	end
-
+end
 
 function rhbCreateGroups()
 	tempx = (math.ceil((rhb.Window:GetWidth() - 24) /4))

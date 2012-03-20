@@ -18,7 +18,7 @@ end
 function rhbloadSettings()
     lastMode=-1
     if rhbValues == nil then
-        rhbValues = {windowstate = true, locmainx = 0, locmainy = 0, mainheight = 300, mainwidth = 500, font = 16, pet = false, texture = "health_g.png", set = 1, hotwatch = true, debuffwatch = true, rolewatch = true, showtooltips = true }
+        rhbValues = {addonState = true, windowstate = true, lockedState = false, locmainx = 0, locmainy = 0, mainheight = 300, mainwidth = 500, font = 16, pet = false, texture = "health_g.png", set = 1, hotwatch = true, debuffwatch = true, rolewatch = true, showtooltips = true }
 
 
         rhbValues.locmainx = ((UIParent:GetRight() / 2) - 150)
@@ -512,6 +512,3 @@ function onMouseOverTargetChanged(unit)
          rhb.MouseOverUnit=nil
      end
 end
-
-
-
