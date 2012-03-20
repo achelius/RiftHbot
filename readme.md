@@ -1,25 +1,42 @@
-Rift HBot
-=========
+[RiftHbot](http://riftui.com/downloads/info213-RiftHbot.html/) - Healing one click at a time!
+=============================================================================================
 
-Features
---------
-work in progress.
+What is RiftHbot?
+-----------------
+RiftHbot is a raid frame substitute focusing on healing needs. It offers a wide variety of customization in terms of how you want your frames to look. You choose what you see and how you respond to the condition. This add-on prides on giving you the best setup for your individual needs. Please however understand that the current Rift API is limited and thus preventing us succeeding our true goals.
+
+Nonetheless, the add-on makes it easier to monitor incoming damage, damage over time, healing, healing over time, buffs and debuffs. So that you can accurately and efficiently heal no matter how much is going on in raid. No longer do you have to look at Rift's messy default raid frames and wonder if your stacks are falling off or if the tank just used a cooldown.
 
 Changelog
 ---------
-- Edited function for onBuffRemove() - buffmonitor.lua, now updates only the changed slots on buff remove event, reducing cpu usage from 45% to 8% max with 20 debuffs changing almost at the same time (found out tonight while playing a purifier cleric). `Achelius 20/03/2012`
+- Edited function for onBuffRemove() - buffmonitor.lua, now updates only the changed slots on buff remove event, reducing CPU usage from 45% to 8% max with 20 debuffs changing almost at the same time (found out tonight while playing a purifier cleric). `Achelius 20/03/2012`
 
-
-RiftHBot For Dummies
---------------------
-work in progress.
-
-Known Errors
+Key Features
 ------------
-work in progress.
+- Ability to trash raid debuff, dispellable debuffs, HoTs and much more.
+- Ability to use Click-to-cast spells.
+- Aggro indication for all members of group.
+- Castbar on target frames.
+- Code efficiency, most of the elements are only active when needed otherwise they are removed from CPU cycles.
+- Customizable appearance to suit your needs. Almost every visual aspect can be changed.
+- Indication of distance or line of sight.
+- Mousebind, Buff and Debuff profiles for all individual specs.
+- Mouseover targeting. RHB knows when you hover over a target.
+- Role changing buttons that disappear in combat.
+- Target indication, know what you target.
+
+RiftHbot for Dummies
+--------------------
+Work in progress.
+
+Known Issues
+------------
+- Only in group mode and during combat if a player disconnects, the game sort the players in the group moving the disconnected player last, but i cannot reassign the frames mouseover unit id during combat so it bugs out, I’m trying to fix it but i don't want to complicate things too much or they will easily break.
+- Los indicator doesn't work like it's intended but is fixed in the upcoming version 0.25.
+- In a 20 man raid. When you apply a great number of buffs at the same time it slow down the game considerably (like when you are spamming Healing Flood in combat on a 20 man raid), rift has an incredible amount of buffs on every character at the same time.
 
 Future Implementations
 ----------------------
-1.	work in progress.
-2.	work in progress.
-3.	work in progress.
+1. Work in progress.
+2. Work in progress.
+3. Work in progress.
